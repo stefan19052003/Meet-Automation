@@ -7,20 +7,19 @@ import pyautogui as pag
 import schedule
 
 # Meeing info
-url = str(input('Enter the meeting id :'))
-meeting_time = int(input('Enter total minutes of the meeting: '))
-comment_ask = input('Type yes/no to print your attendance info in comments :')
-meet_join_time = input('Enter meeting time in 24hour format (eg: "15:30" for 3:30pm): ')
+url = "https://meet.google.com/nwq-cjwj-yvi"
+meeting_time = 1
+comment_ask = 'yes'
+meet_join_time = "09:32"
 
 
 meet_join_time = str(meet_join_time)
 
 # Comment Check
 if (comment_ask.lower() == 'yes' or 'y' or 'Y'):
-    print("Please Enter the following details to be shown in comments")
-    name = input('Please enter your name :')
-    regNo = input('Enter your register number :')
-    classSec = input('Enter your Year and Section :')
+    name = "Stefan"
+    regNo = "12A1/27"
+    classSec = "hadir"
     foo = True
 else:
     foo = False
