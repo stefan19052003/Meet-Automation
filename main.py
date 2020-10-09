@@ -10,7 +10,7 @@ import schedule
 url = "https://meet.google.com/nwq-cjwj-yvi"
 meeting_time = 1
 comment_ask = 'yes'
-meet_join_time = "09:32"
+meet_join_time = "06:30"
 
 
 meet_join_time = str(meet_join_time)
